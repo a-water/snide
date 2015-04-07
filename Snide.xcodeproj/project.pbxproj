@@ -12,6 +12,7 @@
 		93EAC3E21AD365B100226B12 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93EAC3E11AD365B100226B12 /* Images.xcassets */; };
 		93EAC3E51AD365B200226B12 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93EAC3E31AD365B200226B12 /* MainMenu.xib */; };
 		93EAC3F11AD365B200226B12 /* SnideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EAC3F01AD365B200226B12 /* SnideTests.m */; };
+		93EAC3FB1AD366FC00226B12 /* bat23.png in Resources */ = {isa = PBXBuildFile; fileRef = 93EAC3FA1AD366FC00226B12 /* bat23.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		93EAC3EA1AD365B200226B12 /* SnideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93EAC3EF1AD365B200226B12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93EAC3F01AD365B200226B12 /* SnideTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnideTests.m; sourceTree = "<group>"; };
+		93EAC3FA1AD366FC00226B12 /* bat23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bat23.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				93EAC3DD1AD365B100226B12 /* AppDelegate.m */,
 				93EAC3E11AD365B100226B12 /* Images.xcassets */,
 				93EAC3E31AD365B200226B12 /* MainMenu.xib */,
+				93EAC3FC1AD3670200226B12 /* Resources */,
 				93EAC3DA1AD365B100226B12 /* Supporting Files */,
 			);
 			path = Snide;
@@ -109,6 +112,14 @@
 				93EAC3EF1AD365B200226B12 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93EAC3FC1AD3670200226B12 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				93EAC3FA1AD366FC00226B12 /* bat23.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93EAC3FB1AD366FC00226B12 /* bat23.png in Resources */,
 				93EAC3E21AD365B100226B12 /* Images.xcassets in Resources */,
 				93EAC3E51AD365B200226B12 /* MainMenu.xib in Resources */,
 			);
