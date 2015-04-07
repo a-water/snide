@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93EAC3DE1AD365B100226B12 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EAC3DD1AD365B100226B12 /* AppDelegate.m */; };
+		93EAC3E01AD365B100226B12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EAC3DF1AD365B100226B12 /* main.m */; };
+		93EAC3E21AD365B100226B12 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93EAC3E11AD365B100226B12 /* Images.xcassets */; };
+		93EAC3E51AD365B200226B12 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93EAC3E31AD365B200226B12 /* MainMenu.xib */; };
+		93EAC3F11AD365B200226B12 /* SnideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EAC3F01AD365B200226B12 /* SnideTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93EAC3EB1AD365B200226B12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93EAC3CF1AD365B100226B12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93EAC3D61AD365B100226B12;
+			remoteInfo = Snide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		93EAC3D71AD365B100226B12 /* Snide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93EAC3DB1AD365B100226B12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93EAC3DC1AD365B100226B12 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		93EAC3DD1AD365B100226B12 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		93EAC3DF1AD365B100226B12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93EAC3E11AD365B100226B12 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		93EAC3E41AD365B200226B12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		93EAC3EA1AD365B200226B12 /* SnideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93EAC3EF1AD365B200226B12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93EAC3F01AD365B200226B12 /* SnideTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnideTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93EAC3D41AD365B100226B12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93EAC3E71AD365B200226B12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93EAC3CE1AD365B100226B12 = {
+			isa = PBXGroup;
+			children = (
+				93EAC3D91AD365B100226B12 /* Snide */,
+				93EAC3ED1AD365B200226B12 /* SnideTests */,
+				93EAC3D81AD365B100226B12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93EAC3D81AD365B100226B12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93EAC3D71AD365B100226B12 /* Snide.app */,
+				93EAC3EA1AD365B200226B12 /* SnideTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93EAC3D91AD365B100226B12 /* Snide */ = {
+			isa = PBXGroup;
+			children = (
+				93EAC3DC1AD365B100226B12 /* AppDelegate.h */,
+				93EAC3DD1AD365B100226B12 /* AppDelegate.m */,
+				93EAC3E11AD365B100226B12 /* Images.xcassets */,
+				93EAC3E31AD365B200226B12 /* MainMenu.xib */,
+				93EAC3DA1AD365B100226B12 /* Supporting Files */,
+			);
+			path = Snide;
+			sourceTree = "<group>";
+		};
+		93EAC3DA1AD365B100226B12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93EAC3DB1AD365B100226B12 /* Info.plist */,
+				93EAC3DF1AD365B100226B12 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93EAC3ED1AD365B200226B12 /* SnideTests */ = {
+			isa = PBXGroup;
+			children = (
+				93EAC3F01AD365B200226B12 /* SnideTests.m */,
+				93EAC3EE1AD365B200226B12 /* Supporting Files */,
+			);
+			path = SnideTests;
+			sourceTree = "<group>";
+		};
+		93EAC3EE1AD365B200226B12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93EAC3EF1AD365B200226B12 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93EAC3D61AD365B100226B12 /* Snide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93EAC3F41AD365B200226B12 /* Build configuration list for PBXNativeTarget "Snide" */;
+			buildPhases = (
+				93EAC3D31AD365B100226B12 /* Sources */,
+				93EAC3D41AD365B100226B12 /* Frameworks */,
+				93EAC3D51AD365B100226B12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Snide;
+			productName = Snide;
+			productReference = 93EAC3D71AD365B100226B12 /* Snide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93EAC3E91AD365B200226B12 /* SnideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93EAC3F71AD365B200226B12 /* Build configuration list for PBXNativeTarget "SnideTests" */;
+			buildPhases = (
+				93EAC3E61AD365B200226B12 /* Sources */,
+				93EAC3E71AD365B200226B12 /* Frameworks */,
+				93EAC3E81AD365B200226B12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93EAC3EC1AD365B200226B12 /* PBXTargetDependency */,
+			);
+			name = SnideTests;
+			productName = SnideTests;
+			productReference = 93EAC3EA1AD365B200226B12 /* SnideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93EAC3CF1AD365B100226B12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Aaron Waterhouse";
+				TargetAttributes = {
+					93EAC3D61AD365B100226B12 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					93EAC3E91AD365B200226B12 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 93EAC3D61AD365B100226B12;
+					};
+				};
+			};
+			buildConfigurationList = 93EAC3D21AD365B100226B12 /* Build configuration list for PBXProject "Snide" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93EAC3CE1AD365B100226B12;
+			productRefGroup = 93EAC3D81AD365B100226B12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93EAC3D61AD365B100226B12 /* Snide */,
+				93EAC3E91AD365B200226B12 /* SnideTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93EAC3D51AD365B100226B12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93EAC3E21AD365B100226B12 /* Images.xcassets in Resources */,
+				93EAC3E51AD365B200226B12 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93EAC3E81AD365B200226B12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93EAC3D31AD365B100226B12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93EAC3E01AD365B100226B12 /* main.m in Sources */,
+				93EAC3DE1AD365B100226B12 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93EAC3E61AD365B200226B12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93EAC3F11AD365B200226B12 /* SnideTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93EAC3EC1AD365B200226B12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93EAC3D61AD365B100226B12 /* Snide */;
+			targetProxy = 93EAC3EB1AD365B200226B12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		93EAC3E31AD365B200226B12 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93EAC3E41AD365B200226B12 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93EAC3F21AD365B200226B12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		93EAC3F31AD365B200226B12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		93EAC3F51AD365B200226B12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Snide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		93EAC3F61AD365B200226B12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Snide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		93EAC3F81AD365B200226B12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SnideTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snide.app/Contents/MacOS/Snide";
+			};
+			name = Debug;
+		};
+		93EAC3F91AD365B200226B12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SnideTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snide.app/Contents/MacOS/Snide";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93EAC3D21AD365B100226B12 /* Build configuration list for PBXProject "Snide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93EAC3F21AD365B200226B12 /* Debug */,
+				93EAC3F31AD365B200226B12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93EAC3F41AD365B200226B12 /* Build configuration list for PBXNativeTarget "Snide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93EAC3F51AD365B200226B12 /* Debug */,
+				93EAC3F61AD365B200226B12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		93EAC3F71AD365B200226B12 /* Build configuration list for PBXNativeTarget "SnideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93EAC3F81AD365B200226B12 /* Debug */,
+				93EAC3F91AD365B200226B12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93EAC3CF1AD365B100226B12 /* Project object */;
+}
