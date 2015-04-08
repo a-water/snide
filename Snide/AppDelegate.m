@@ -7,34 +7,53 @@
 //
 
 #import "AppDelegate.h"
+#import "CommandHelper.h"
 
 @interface AppDelegate ()
 
-@property (weak) IBOutlet NSWindow *window;
 @property (strong, nonatomic) NSStatusItem *statusItem;
-@property (assign, nonatomic) BOOL darkModeOn;
+@property (assign, nonatomic) BOOL isHidingEnabled;
 @end
 
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-
+    
+    self.isHidingEnabled = ![CommandHelper areIconsShowing];
+    
     // Init the status bar button with the image
     self.statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
     
-    NSImage *menuBarImage = [NSImage imageNamed:@"bat23"];
-    // Check if system is running anything less than 10.10
-    BOOL oldBusted = (floor(NSAppKitVersionNumber) <= NSAppKitVersionNumber10_9);
-    if(!oldBusted) {
-        [menuBarImage setTemplate:YES];
-    }
-    [self.statusItem setImage:menuBarImage];
-    
-    [self.statusItem setAction:@selector(buttonClicked:)];
+    [self determineIconState];
 }
 
-- (void)buttonClicked:(id)sender {
-    NSLog(@"bat clicked");
+- (void) determineIconState{
+    
+    NSImage *menuBarImage = [NSImage imageNamed:@"bat23"];
+    NSImage *menuBarImageSelected = [NSImage imageNamed:@"bat23_selected"];
+    
+    // Check if system is running anything less than 10.10
+    BOOL preYosemite = (floor(NSAppKitVersionNumber) <= NSAppKitVersionNumber10_9);
+    if(!preYosemite) {
+        [menuBarImage setTemplate:YES];
+        [menuBarImageSelected setTemplate:YES];
+    }
+    
+    if(self.isHidingEnabled) {
+        [self.statusItem setImage:menuBarImageSelected];
+        self.isHidingEnabled = false;
+    } else {
+        [self.statusItem setImage:menuBarImage];
+        self.isHidingEnabled = true;
+    }
+    
+    [self.statusItem setAction:@selector(iconClicked:)];
+}
+
+- (void)iconClicked:(id)sender {
+    
+    [self determineIconState];
+    [CommandHelper toggleIcons:self.isHidingEnabled];
 }
 
 
